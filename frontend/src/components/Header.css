@@ -1,16 +1,23 @@
 .header {
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 2;
-  width: 100%;
-  padding: 0.75em 2em;
+  padding: 0.30em 2em;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   background: #ffffff;
-  height: 70px;
+  height: 80px;
+  width: 100%;
 }
+
+.header-search {
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+    padding: 0.60em 2em;
+    background: #ffffff;
+    height: 60px;
+    width: 900px;
+  }
 
 .profile-image {
   height: 30px;
@@ -34,4 +41,8 @@
   padding: 0em 1em;
   cursor: pointer;
   color: #1890ff;
+}
+
+.hd-search{
+    width: 800px;
 }
